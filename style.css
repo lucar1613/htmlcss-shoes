@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+main{
+    padding: 3rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+div.box{
+    background-color: red;
+    height: 200px;
+    width: 400px;
+}
+img{
+    inline-size: inherit;
+    display: flex;
+    justify-content: unset;
+    padding: 0 120px;
+}
+div.box1{
+    background-color:green;
+    height: 200px;
+    width: 400px;
+}
+div.box2{
+    background-color: yellow;
+    height: 200px;
+    width: 400px;
+}
+.text{
+    color: yellow;
+    z-index: 1;
+    position: relative;
+    font-style: italic;
+    text-align: center;
+}
+.text1{
+    color: green;
+    z-index: 1;
+    position: relative;
+    font-style: italic;
+    text-align: center;
+}
+
